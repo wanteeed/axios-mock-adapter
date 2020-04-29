@@ -1,6 +1,6 @@
 "use strict";
 
-var axios = require("axios");
+var axios = require("@wanteeed/axios");
 var isEqual = require("fast-deep-equal");
 var isBuffer = require("is-buffer");
 var toString = Object.prototype.toString;
