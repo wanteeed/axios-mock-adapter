@@ -1,6 +1,6 @@
 {
-  "name": "axios-mock-adapter",
-  "version": "1.18.1",
+  "name": "@wanteeed/axios-mock-adapter",
+  "version": "1.18.1-wanteeed",
   "description": "Axios adapter that allows to easily mock requests",
   "main": "src/index.js",
   "scripts": {
@@ -21,7 +21,10 @@
   "types": "types",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ctimmerm/axios-mock-adapter.git"
+    "url": "git+https://github.com/wanteeed/axios-mock-adapter.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/wanteeed"
   },
   "keywords": [
     "axios",
@@ -33,10 +36,7 @@
   ],
   "author": "Colin Timmermans <colintimmermans@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ctimmerm/axios-mock-adapter/issues"
-  },
-  "homepage": "https://github.com/ctimmerm/axios-mock-adapter#readme",
+  "homepage": "https://github.com/wanteeed/axios-mock-adapter#readme",
   "peerDependencies": {
     "axios": ">= 0.9.0"
   },
